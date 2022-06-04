@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* main -> assign a random number to the variable n each
- * time it is executed and printed based on the condition specified
- * Return : always 0 
+/**
+ * main -> assign a random number to the variable n each
+ * Return : always 0
  */
 int main(void)
 {
