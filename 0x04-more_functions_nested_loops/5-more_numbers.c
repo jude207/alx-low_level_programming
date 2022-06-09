@@ -15,9 +15,9 @@ void more_numbers(void)
 			if (z >= 10)
 			{
 				_putchar((z / 10) + 48);
-			}	
+			}
 			_putchar((z % 10) + 48);
-		}	
+		}
 		_putchar('\n');
 	}
 }
