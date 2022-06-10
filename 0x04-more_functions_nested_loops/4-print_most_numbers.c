@@ -12,8 +12,8 @@ void print_most_numbers(void)
 	{
 		while (i == 2 || i == 4)
 		{
-			i++;
 			continue;
+			i++;
 		}
 		_putchar('i');
 		i++;
