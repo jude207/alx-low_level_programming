@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * program that print fizz and buzz in
+ * main - program that print fizz and buzz in
  * place of 3 and 5
+ * Return: returns 0
  */
 
 int main(void)
