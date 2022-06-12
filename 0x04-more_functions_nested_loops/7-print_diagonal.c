@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * print_diagonal - prints a diagonal line
+ * @n: takes a number as input
  */
 
 void print_diagonal(int n)
@@ -15,7 +14,7 @@ void print_diagonal(int n)
 
 		for (i = 0; i < n; i++)
 		{
-			for (j = 0; j < i; j++)
+			for (j = 0; (j <= i); j++)
 			{	
 				_putchar('.');
 				if (j == i)		
@@ -31,6 +30,6 @@ void print_diagonal(int n)
 	else
 	{
 		_putchar('\n');
-	}	
+	}
 }
 
