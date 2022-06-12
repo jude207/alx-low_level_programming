@@ -14,19 +14,19 @@ int main(void)
 	{
 		if (i % 15 == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz\t");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz\t");
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fuzz ");
+			printf("Fuzz\t");
 		}
 		else
 		{
-			printf("%d ", i);
+			printf("%d\t", i);
 		}
 	}
 	return (0);
