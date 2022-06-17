@@ -10,14 +10,20 @@
 
 void reverse_array(int *a, int n)
 {
-	int i;
-	int st = 0;
+	int *left = a;
+	int *right;
 
-	*(a + 0) = *(a - j);
+	right = &a[n - 1];
+	left = a;
 
-	for (i = 0; i < n; i++)
+	while(left < right)
 	{
-		printf("%p", ptr);
-		ptr++;
-	}
+		*left ^= *right;
+		*right ^= *left;
+		*left ^= *right;
+
+		left++;
+		right--;
+		
+	}	
 }	
