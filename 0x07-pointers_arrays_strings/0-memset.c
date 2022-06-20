@@ -3,21 +3,14 @@
 #include <string.h>
 
 /**
- *
- *
- *
+ * _memset - set the memory of variable
+ * @s: ponter to the memory
+ * @b: the value to be set.
+ * @n: the number of bytes to be set
+ * Return: set memory values::
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	/**unsigned int i;*/
-
 	return (memset(s, b, n));
-
-	/**for (i = 0; i < n; i++)
-	{
-		printf("%c", *(s + n));
-	}
-	printf("\n");
-	return (0);*/
 }
