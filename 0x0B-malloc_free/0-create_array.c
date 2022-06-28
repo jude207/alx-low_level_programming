@@ -7,7 +7,7 @@
  * create_array - allocate memory to the char
  * @size: length of the char
  * @c: char to be allocated memory
- * Returns: char
+ * Return: char
  */
 
 char *create_array(unsigned int size, char c)
